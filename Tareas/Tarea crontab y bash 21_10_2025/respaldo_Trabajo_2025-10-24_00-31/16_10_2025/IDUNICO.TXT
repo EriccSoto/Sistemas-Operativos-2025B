@@ -1,0 +1,8 @@
+Nombre(s): Eric
+Apellido(s): Carmen Soto
+Dirección: Río Hudson San José Tequixquiac
+Teléfono: 5528504719
+Móvil: 5564858541
+Área de trabajo: Robotica
+Fecha de creación: 16/10/2025
+ID único: 82fd295b-bea5-4b9c-a2be-948e674ca9e7

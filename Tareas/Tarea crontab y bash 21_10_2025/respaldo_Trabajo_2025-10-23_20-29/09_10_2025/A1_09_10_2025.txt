@@ -1,0 +1,1000 @@
+ 1128  sudo dpkg --purge cowsay
+ 1129  sudo apt install cowsay
+ 1130  clear
+ 1131  sudo apt install cowsay
+ 1132  clear
+ 1133  sudo dpkg --purge cowsay
+ 1134  sudo apt purge cowsay
+ 1135  sudo apt remove cowsay
+ 1136  sudo apt purge cowsay
+ 1137  clear
+ 1138  pwd
+ 1139  ls
+ 1140  cd clear
+ 1141  clear
+ 1142  ls
+ 1143  clear
+ 1144  ls
+ 1145  cd repoSO25B
+ 1146  ls
+ 1147  cd Tareas
+ 1148  ls
+ 1149  mv ~/Tarea\ PAQUETES\ ROTOS\ Y\ DEPENDENCIAS\ EN\ LINUX_18_09_2025.pdf ~/repoSO25B/Tareas/
+ 1150  ls
+ 1151  cd ..
+ 1152  clear
+ 1153  git status
+ 1154  git add .
+ 1155  git commit -m "Tarea 18/09"
+ 1156  7git reset --soft HEAD~1
+ 1157  git reset --soft HEAD~1
+ 1158  clear
+ 1159  git status
+ 1160  git commit --amend -m "Tarea del 18/09/2025"
+ 1161  git push
+ 1162  git pull --rebase origin main
+ 1163  git push origin main
+ 1164  clear
+ 1165  sudo ufw status
+ 1166  sudo ufw enable
+ 1167  sudo ufw disable
+ 1168  sudo ufw status
+ 1169  sudo ufw enable
+ 1170  sudo ufw status
+ 1171  sudo ufw app list
+ 1172  sudo ufw deny http
+ 1173  sudo ufw status
+ 1174  sudo ufw deny from 192.178.56.78
+ 1175  sudo ufw status number
+ 1176  sudo ufw status numbered
+ 1177  sudo ufw delete 1
+ 1178  sudo ufw status numbered
+ 1179  sudo ufw delete 2 -y
+ 1180  sudo ufw status numbered
+ 1181  sudo ufw delete allow 80
+ 1182  sudo ufw delete allow in 80
+ 1183  sudo ufw delete allow 80
+ 1184  sudo ufw status verbose
+ 1185  ls
+ 1186  cd repoSO25B
+ 1187  ls
+ 1188  cd Asistencias
+ 1189  ls
+ 1190  cd ..
+ 1191  ls
+ 1192  cd repoSO25B
+ 1193  ls
+ 1194  cd Asistencias
+ 1195  ls
+ 1196  mv ~/Carmen\ Soto\ Eric_2125696_19_09_2025.png ~/repoSO25B/Asistencias/
+ 1197  ls
+ 1198  cd ..
+ 1199  git status
+ 1200  git add .
+ 1201  git commit -m "Asistencia 19/09/2025"
+ 1202  git push
+ 1203  sudo ufw reset
+ 1204  sudo ufw status verbose
+ 1205  sudo ufw enable
+ 1206  sudo ufw status verbose
+ 1207  sudo ufw status numbered
+ 1208  pwd
+ 1209  sudo cat /etc/shadow
+ 1210  su ericc2
+ 1211  historty
+ 1212  sudo change -l ericc2
+ 1213  sudo chage -l ericc2
+ 1214  sudo passwd ericc2
+ 1215  clear
+ 1216  su ericc2
+ 1217  clear
+ 1218  sudo adduser Aby
+ 1219  sudo adduser --allow-bad-names Aby
+ 1220  clear
+ 1221  su Aby
+ 1222  su
+ 1223  sudo su
+ 1224  su Aby
+ 1225  cd etc
+ 1226  ls
+ 1227  cd ..
+ 1228  cd etc
+ 1229  ls
+ 1230  cd ..
+ 1231  ls
+ 1232  cd etc
+ 1233  ls
+ 1234  sudo visudo
+ 1235  cd ..
+ 1236  pwd
+ 1237  clear
+ 1238  sudo cat etc/group
+ 1239  grep admin /etc/group
+ 1240  grep adm: /etc/group
+ 1241  sudo goasswd -a Aby adm
+ 1242  sudo gpasswd -a Aby adm
+ 1243  grep adm: /etc/group
+ 1244  clear
+ 1245  ls
+ 1246  cd etc
+ 1247  sudo visudo
+ 1248  sudo -k
+ 1249  sudo cat/etc/shadow
+ 1250  sudo k
+ 1251  sudo -k
+ 1252  sudo cat/etc/shadow
+ 1253  clear
+ 1254  sudo k
+ 1255  sudo -k
+ 1256  sudo cat/etc/shadow
+ 1257  clear
+ 1258  sudo -k
+ 1259  cd ..
+ 1260  clear
+ 1261  sudo -k
+ 1262  sudo cat /etc/shadow
+ 1263  clear
+ 1264  sudo apt update
+ 1265  sudo -v
+ 1266  sudo apt update
+ 1267  sudo apt-get install java
+ 1268  sudo systemctl status ssh
+ 1269  clear
+ 1270  sudo clear
+ 1271  sudo sudo clear
+ 1272  sudo visudo
+ 1273  sudo /etc/group
+ 1274  sudo cat /etc/group
+ 1275  sudo -k
+ 1276  sudo cat /etc/group
+ 1277  sudo -k
+ 1278  sudo cat /etc/group
+ 1279  sudo visudo
+ 1280  su Aby
+ 1281  ckear
+ 1282  clear
+ 1283  sudo userdel Aby
+ 1284  sudo cat /etc/shadow
+ 1285  clear
+ 1286  sudo groupdel Aby
+ 1287  sudo cat /etc/group
+ 1288  clear
+ 1289  visudo
+ 1290  sudo visudo
+ 1291  ls
+ 1292  cd home
+ 1293  ls
+ 1294  cd ericc
+ 1295  ls
+ 1296  cd repoSO25B
+ 1297  ls
+ 1298  cd Asistencias
+ 1299  ls
+ 1300  mkdir 'Carmen Soto Eric_2125696_18_09_2025'
+ 1301  ls
+ 1302  mv ~/c1_18_09_2025.png ~/repoSO25B/Asistencias/'Carmen Soto Eric_2125696_18_09_2025'/
+ 1303  mv ~/c2_18_09_2025.png ~/repoSO25B/Asistencias/'Carmen Soto Eric_2125696_18_09_2025'/
+ 1304  mv ~/c3_18_09_2025.png ~/repoSO25B/Asistencias/'Carmen Soto Eric_2125696_18_09_2025'/
+ 1305  cd 'Carmen Soto Eric_2125696_18_09_2025'
+ 1306  ls
+ 1307  clear
+ 1308  cd ..
+ 1309  clear
+ 1310  sudo adduser --allow-bad-names USER
+ 1311  sudo cat /etc/shadow
+ 1312  clear
+ 1313  ls
+ 1314  cd repoSO25B
+ 1315  ls
+ 1316  cd Trabajo_en_clase
+ 1317  ls
+ 1318  mkdir 18_09_2025
+ 1319  cd ..
+ 1320  pwd
+ 1321  clear
+ 1322  ls
+ 1323  cd repoSO25B
+ 1324  ls
+ 1325  cd Trabajo_en_clase
+ 1326  ls
+ 1327  cd 18_09_2025
+ 1328  ls
+ 1329  mv ~/c1_18_09_2025.png ~/repoSO25B/Trabajo_en_clase/18_09_2025/
+ 1330  mv ~/c2_18_09_2025.png ~/repoSO25B/Trabajo_en_clase/18_09_2025/
+ 1331  ls
+ 1332  cd ..
+ 1333  git status
+ 1334  git add .
+ 1335  git commit -m "Actividades del día 18-sep-2025"
+ 1336  git push
+ 1337  clear
+ 1338  cd ..
+ 1339  cat /etc/shadow
+ 1340  sudo cat /etc/shadow
+ 1341  su USER
+ 1342  sudo cat /etc/shadow
+ 1343  clear
+ 1344  su USER
+ 1345  sudo cat /etc/group
+ 1346  sudo usermod -aG adm USER
+ 1347  sudo cat /etc/group
+ 1348  sudo visudo
+ 1349  su USER
+ 1350  clear
+ 1351  sudo cat /etc/groups
+ 1352  clear
+ 1353  sudo cat /etc/group
+ 1354  clear
+ 1355  pwd
+ 1356  ls
+ 1357  cd repoSO25B
+ 1358  ls
+ 1359  cd Tareas
+ 1360  ls
+ 1361  mkdir 'Tarea instalaciones con USER_19_09_2025'
+ 1362  ls
+ 1363  mv ~/t1_19_09_2025.png ~/t2_19_09_2025.png ~/t3_19_09_2025.png 'Tarea instalaciones con USER_19_09_2025'
+ 1364  cd 'Tarea instalaciones con USER_19_09_2025'
+ 1365  ls
+ 1366  cd ..
+ 1367  git status
+ 1368  git add .
+ 1369  git commit -m "Tarea 19/09/2025"
+ 1370  git push
+ 1371  clear
+ 1372  cd ..
+ 1373  pwd
+ 1374  ls
+ 1375  cklear
+ 1376  clear
+ 1377  ufw --version
+ 1378  sudo ufw status verbose
+ 1379  ping 172.217.3.142
+ 1380  clear
+ 1381  sudo nano /etc/default/ufw
+ 1382  sudo ufw default deny incoming
+ 1383  sudo ufw default allow outgoing
+ 1384  sudo ufw allow ssh
+ 1385  sudo status verbose
+ 1386  sudo ufw status verbose
+ 1387  cd etc
+ 1388  cd /etc
+ 1389  ls
+ 1390  sudocat /etc/service
+ 1391  sudo cat /etc/services
+ 1392  clear
+ 1393  sudo ufw allow 22
+ 1394  sudo ufw status verbose
+ 1395  sudo ufw allow 2222
+ 1396  sudo ufw status verbose
+ 1397  ufw disble 
+ 1398  sudo ufw disble 
+ 1399  sudo ufw disable 
+ 1400  ufw status
+ 1401  sudo -v
+ 1402  ufw status
+ 1403  sudo -k
+ 1404  ufw status
+ 1405  sudo
+ 1406  sudo su
+ 1407  sudo ufw status
+ 1408  sudo -k
+ 1409  ufw status
+ 1410  sudo ufw status
+ 1411  sudo -v
+ 1412  ufw status
+ 1413  sudo ufw status
+ 1414  sudo ufw allow http
+ 1415  sudo ufw allow 80
+ 1416  sudo ufw status
+ 1417  sudo ufw allow https
+ 1418  sudo ufw allow 443
+ 1419  sudo ufw enable
+ 1420  sudo ufw status
+ 1421  sudo ufw 6000:6007/tcp
+ 1422  sudo ufw allow 6000:6007/tcp
+ 1423  sudo ufw allow 6000:6007/udp
+ 1424  sudo ufw status
+ 1425  ping https://www.uaemex.mx/
+ 1426  ping uaemex.mx
+ 1427  ping 148.215.154.13
+ 1428  ping es.wikipedia.org
+ 1429  ping youtube.com
+ 1430  sudo ufw allow from 192.178.56.78
+ 1431  sudo ufw status
+ 1432  sudo ufw allow from 192.178.56.78 to any port 22
+ 1433  sudo ufw status
+ 1434  sudo ufw allow from 192.178.56.78/88
+ 1435  sudo ufw allow from 192.178.56.78/24
+ 1436  sudo ufw status
+ 1437  sudo ufw allow from 192.178.56.78/30 to any port 22
+ 1438  sudo ufw status
+ 1439  sudo ufw allow in on eth0 to any port 80
+ 1440  sudo ufw status
+ 1441  sudo apt-get update
+ 1442  sudo apt-get upgrade
+ 1443  sudo apt install mysql-server -y
+ 1444  hfgb
+ 1445  history
+ 1446  cat ~/.bash_history
+ 1447  clear
+ 1448  sudo ufw enable
+ 1449  sudo ufw allow 22/tcp
+ 1450  sudo ufw allow 2222/tcp
+ 1451  sudo ufw allow 80/tcp
+ 1452  sudo ufw allow 443/tcp
+ 1453  sudo ufw status
+ 1454  sudo ufw status numbered
+ 1455  clear
+ 1456  pwd
+ 1457  ls
+ 1458  cd repoSO25B
+ 1459  ls
+ 1460  cd Tareas
+ 1461  ls
+ 1462  mv "/home/ericc/Tarea uso de ufw_25_9_2025.png" "/home/ericc/repoSO25B/Tareas/"
+ 1463  ls
+ 1464  cd ..
+ 1465  git satus
+ 1466  git status
+ 1467  git add .
+ 1468  git commit -m "Tarea uso de ufw_25_9_2025"
+ 1469  git push
+ 1470  git status
+ 1471  git push
+ 1472  pwd
+ 1473  ls
+ 1474  cd repoSO25B
+ 1475  ls
+ 1476  cd Asistencias
+ 1477  mv "/home/ericc/Carmen Soto Eric_2125696_25_09_2025.jpg" /home/ericc/repoSO25B/Asistencias/
+ 1478  ls
+ 1479  cd ..
+ 1480  git status
+ 1481  git add ..
+ 1482  git add .
+ 1483  git commit -m "Asistencia 25/9/2025"
+ 1484  git push
+ 1485  cd /etc/ssh
+ 1486  sudo nano sshd_config
+ 1487  sudo cp sshd_config sshd_config.back
+ 1488  sudo cp sshd_config sshd_config.bak
+ 1489  sudo cp sshd_config sshd_config.txt
+ 1490  sudo systemctl start ssh
+ 1491  sudo systemctl restart ssh
+ 1492  sudo systemctl status ssh
+ 1493  sudo apt update
+ 1494  sudo apt install ufw
+ 1495  sudo ufw status
+ 1496  sudo ufw enable
+ 1497  sudo ufw allow ssh
+ 1498  sudo ufw status verbose
+ 1499  sudo apt install iptables
+ 1500  sudo iptables -nL
+ 1501  sudo iptables -L -v
+ 1502  sudo iptables -F
+ 1503  sudo iptables -P INPUT DROP
+ 1504  sudo apt install net-tools
+ 1505  ifconfig
+ 1506  sudo netstat -tlpn
+ 1507  touch fonseca.txt
+ 1508  sudo touch fonseca.txt
+ 1509  touch monosaurio.txt
+ 1510  sudo touch monosaurio.txt
+ 1511  nano fonseca.txt
+ 1512  sudo nano fonseca.txt
+ 1513  sudo nano monosaurio.txt
+ 1514  cat fonseca.txt
+ 1515  cat monosaurio.txt
+ 1516  cat fonseca.txt monosaurio.txt > salida.txt
+ 1517  cat monosaurio.txt fonseca.txt >> salida1.txt
+ 1518  cat monosaurio.txt fonseca.txt >> salida.txt
+ 1519  cat fonseca.txt monosaurio.txt >> salida.txt
+ 1520  cat fonseca.txt monosaurio.txt salida.txt > output.txt
+ 1521  cat output.txt
+ 1522  sudo cat fonseca.txt monosaurio.txt > salida.txt
+ 1523  sudo cat monosaurio.txt fonseca.txt >> salida1.txt
+ 1524  sudo cat monosaurio.txt fonseca.txt >> salida.txt
+ 1525  sudo cat fonseca.txt monosaurio.txt >> salida.txt
+ 1526  sudo cat fonseca.txt monosaurio.txt salida.txt > output.txt
+ 1527  sudo cat output.txt
+ 1528  ls
+ 1529  sudo mv fonseca.txt monosaurio.txt /home/ericc/
+ 1530  ls
+ 1531  cd ..
+ 1532  pwd
+ 1533  cd ~
+ 1534  ls
+ 1535  cd sudo cat fonseca.txt monosaurio.txt > salida.txt
+ 1536  sudo cat fonseca.txt monosaurio.txt > salida.txt
+ 1537  sudo cat monosaurio.txt fonseca.txt >> salida1.txt
+ 1538  sudo cat monosaurio.txt fonseca.txt >> salida.txt
+ 1539  sudo cat fonseca.txt monosaurio.txt >> salida.txt
+ 1540  sudo cat fonseca.txt monosaurio.txt salida.txt > output.txt
+ 1541  sudo cat output.txt
+ 1542  ls
+ 1543  history > /home/ericc/historial_completo.txt
+ 1544  ls
+ 1545  clear
+ 1546  history
+ 1547  sudo apt update                         # Actualiza la lista de paquetes
+ 1548  sudo apt install openssh-server        # Instala el servidor SSH
+ 1549  sudo service ssh start
+ 1550  sudo systemctl enable ssh
+ 1551  sudo ufw allow 22
+ 1552  sudo ufw enable
+ 1553  sudo ufw status
+ 1554  hostname -I
+ 1555  clear
+ 1556  sudo cat etc/shadow
+ 1557  pwd
+ 1558  clear
+ 1559  sudo cat /etc/shadow
+ 1560  sudo cat /etc/passwd
+ 1561  clear
+ 1562  sudo cat /etc/passwd
+ 1563  clear
+ 1564  sudo cat /etc/shadow
+ 1565  sudo userdel -r karol
+ 1566  sudo userdel -r haz
+ 1567  sudo userdel -r ericc2
+ 1568  clear
+ 1569  sudo cat /etc/shadow
+ 1570  sudo userdel karol
+ 1571  sudo userdel haz
+ 1572  sudo userdel alonso
+ 1573  sudo userdel miguel
+ 1574  sudo userdel patric
+ 1575  sudo userdel anthony
+ 1576  sudo userdel ericc2
+ 1577  sudo userdel ericnuevo
+ 1578  sudo userdel usuario12_9_2025
+ 1579  sudo userdel usuario_simple
+ 1580  sudo userdel 12sepv1
+ 1581  sudo userdel sep12v2
+ 1582  sudo userdel USER
+ 1583  sudo cat /etc/shadow
+ 1584  clear
+ 1585  sudo groupadd TeamScrum
+ 1586  sudo adduser --force-badname AideeSotoSantillan
+ 1587  sudo userdel AideeSotoSantillan
+ 1588  clear
+ 1589  sudo groupadd TeamScrum
+ 1590  sudo groupdel TeamScrum
+ 1591  clear
+ 1592  sudo groupadd TeamScrum
+ 1593  sudo adduser --force-badname AideeSoto
+ 1594  sudo groupdel TeamScrum
+ 1595  sudo userdel AideeSoto
+ 1596  clear
+ 1597  sudo groupadd TeamScrum
+ 1598  sudo adduser --force-badname AideeSoto
+ 1599  clear
+ 1600  sudo usermod -l DanielaJoselin AideeSoto
+ 1601  sudo cat/etc/shadow
+ 1602  sudo cat /etc/shadow
+ 1603  clear
+ 1604  sudo usermod -aG TeamScrum DanielaJoselin
+ 1605  groups DanielaJoselin
+ 1606  sudo groupmod -n DanielaJoselin AideeSoto
+ 1607  groups DanielaJoselin
+ 1608  clear
+ 1609  sudo chage -l DanielaJoselin
+ 1610  clear
+ 1611  sudo chage -E 2025-09-27 DanielaJoselin
+ 1612  sudo chage -l DanielaJoselin
+ 1613  sudo chage -E -1 DanielaJoselin
+ 1614  sudo chage -l DanielaJoselin
+ 1615  clear
+ 1616  sudo chage -E 2025-09-27 DanielaJoselin
+ 1617  sudo chage -l DanielaJoselin
+ 1618  sudo chage -M $(($(date -d "2025-09-27" +%s - $(date +%s)) / 86400)) DanielaJoselin
+ 1619  clear
+ 1620  sudo chage -E 2025-09-27 DanielaJoselin
+ 1621  sudo chage -M 1 DanielaJoselin
+ 1622  sudo chage -l DanielaJoselin
+ 1623  clear
+ 1624  sudo passwd DanielaJoselin
+ 1625  clear
+ 1626  su DanielaJoselin
+ 1627  sudo rm -r /home/AideeSotoSantillan
+ 1628  cd /home
+ 1629  ls
+ 1630  sudo usermod -d /home/DanielaJoselin -m DanielaJoselin
+ 1631  ls
+ 1632  clear
+ 1633  su DanielaJoselin
+ 1634  sudo visudo
+ 1635  fg
+ 1636  sudo visudo
+ 1637  su DanieñaJoselin
+ 1638  su DanielaJoselin
+ 1639  sudo systemctl start ssh.service
+ 1640  clear
+ 1641  su DanielaJoselin
+ 1642  sudo deluser --remove-home DanielaJoselin
+ 1643  sudo delgroup DanielaJoselin
+ 1644  sudo rm -r /home/DanielaJoselin
+ 1645  getent passwd DanielaJoselin
+ 1646  clear
+ 1647  sudo cat /etc/shadow
+ 1648  pwd
+ 1649  cd ericc
+ 1650  pwd
+ 1651  clear
+ 1652  sudo delgroup TamScrum
+ 1653  sudo cat /etc/group
+ 1654  clear
+ 1655  sudo delgroup TeamScrum
+ 1656  cat /etc/group | grep TeamScrum
+ 1657  cat /etc/group
+ 1658  clear
+ 1659  pwd
+ 1660  ls
+ 1661  cd repoSO25B
+ 1662  ls
+ 1663  mkdir Examen1P
+ 1664  mv "/home/ericc/Examen 1P Eric Carmen Soto.pdf" /home/ericc/repoSO25B/Examen1P/
+ 1665  cd Examen1P
+ 1666  ls
+ 1667  cd ..
+ 1668  git status
+ 1669  git add .
+ 1670  git commit -m "Exmen 1P 26/09/2025"
+ 1671  git push
+ 1672  sudo cat /etc/shadow
+ 1673  useradd karol
+ 1674  sudo useradd karol
+ 1675  cls
+ 1676  clear
+ 1677  sudo useradd karol
+ 1678  sudo useradd haxem
+ 1679  clear
+ 1680  sudo cat /etc/shadow
+ 1681  sudo userdel karol
+ 1682  sudo userdel haxem
+ 1683  sudo cat /etc/shadow
+ 1684  pwd
+ 1685  cd ..
+ 1686  ls
+ 1687  cls
+ 1688  clear
+ 1689  sudo groupadd TeamScrum
+ 1690  sudo adduser --force-badname TonyEric
+ 1691  clear4
+ 1692  clear
+ 1693  sudo usermod -l PasenosCon10 TonyEric
+ 1694  sudo usermod -l TonyEric PasenosCon10
+ 1695  clear
+ 1696  sudo cat /etc/shadow
+ 1697  sudo usermod -l PasenosCon10 TonyEric
+ 1698  sudo cat /etc/shadow
+ 1699  clear
+ 1700  ls
+ 1701  sudo mv /home/TonyEric /home/PasenosCon10
+ 1702  ls
+ 1703  clear
+ 1704  sudo usermod -aG TeamScrum PasenosCon10
+ 1705  sudo groups PasenosCon10
+ 1706  sudo groupmod -n PasenosCon10 TonyEric
+ 1707  sudo groups PasenosCon10
+ 1708  clear
+ 1709  sudo chage PasenosCon10
+ 1710  jobs
+ 1711  kill %1
+ 1712  jobs
+ 1713  clear
+ 1714  sudo chage -l PasenosCon10
+ 1715  clear
+ 1716  sudo chage -E 2025-10-3 PasenosCon10
+ 1717  sudo chage -l PasenosCon10
+ 1718  clear
+ 1719  sudo chage -E 2025-10-03 PasenosCon10
+ 1720  sudo chage -M 1 PasenosCon10
+ 1721  sudo chage -l PasenosCon10
+ 1722  clear
+ 1723  sudo passwd PasenosCon10
+ 1724  clear
+ 1725  su PasenosCon10
+ 1726  clear
+ 1727  su PasenosCon10
+ 1728  sudo visudo
+ 1729  clear
+ 1730  su PasenosCon10
+ 1731  sudo usermod -d /home/PasenosCon10 PasenosCon10
+ 1732  su PasenosCon10
+ 1733  exit
+ 1734  pwd
+ 1735  ls
+ 1736  cd ..
+ 1737  ls
+ 1738  su PasenosCon10
+ 1739  sudo deluser --remove-home PasenosCon10
+ 1740  sudo delgroup PasenosCon10
+ 1741  sudo cat /etc/groups
+ 1742  sudo cat /etc/group
+ 1743  sudo adduser PasenosCon10
+ 1744  clear
+ 1745  sudo adduser --allow-bad-names PasenosCon10
+ 1746  su PasenosCon10
+ 1747  sudo deluser --remove-home PasenosCon10
+ 1748  sudo delgroup PasenosCon10
+ 1749  sudo rm -r /home/PasenosCon10'
+ 1750  sudo rm -r /home/PasenosCon10
+ 1751  getent passwd PasenosCon10
+ 1752  clear
+ 1753  sudo cat /etc/shadoe
+ 1754  clear
+ 1755  sudo cat /etc/shadow
+ 1756  clear
+ 1757  sudo delgroup TeamScrum
+ 1758  cat /etc/group | grep TeamScrum
+ 1759  cat /etc/group
+ 1760  clear
+ 1761  sudo ufw status verbose
+ 1762  ping -c 4 github.com
+ 1763  curl -I https://github.com
+ 1764  sudo nano /etc/resolv.conf
+ 1765  sudo apt-get install iptables
+ 1766  clear
+ 1767  sudo apt-get update
+ 1768  sudo apt-get upgrade
+ 1769  sudo apt-get install iptables
+ 1770  clar
+ 1771  clear
+ 1772  sudo iptables -P INPUT DROP
+ 1773  sudo iptables -P FORWARD
+ 1774  clear
+ 1775  sudo iptables -P FORWARD
+ 1776  clear
+ 1777  sudo iptables -P FORWARD DROP
+ 1778  sudo iptables -l
+ 1779  sudo iptables -P OUTPUT ACCEPT
+ 1780  sudo iptables /l
+ 1781  sudo iptables -L
+ 1782  sudo iptables -P -F OUTPUT
+ 1783  sudo iptables -F FORWARD
+ 1784  sudo iptables -F OUTPUT
+ 1785  sudo iptables -F INPUT
+ 1786  sudo iptables -L
+ 1787  clear
+ 1788  sudo iptables -F INPUT
+ 1789  sudo iptables -F OUTPUT
+ 1790  sudo iptables -F FORWARD
+ 1791  sudo iptables -L
+ 1792  clear
+ 1793  sudo iptables -F FORWARD
+ 1794  sudo iptables -F OUTPUT
+ 1795  sudo iptables -F INPUT
+ 1796  sudo iptables -F DROP
+ 1797  sudo iptables -F -t nat
+ 1798  ls
+ 1799  clear
+ 1800  pwd
+ 1801  ls
+ 1802  cd repoSO25B
+ 1803  ls
+ 1804  cd Asistencias
+ 1805  ls
+ 1806  mv ~/Carmen\ Soto\ Eric_2125696_02_10_2025.png .
+ 1807  ls
+ 1808  cd ..
+ 1809  clear
+ 1810  git status
+ 1811  git add .
+ 1812  git commit -m "Asistencia 2-10-2025"
+ 1813  git push
+ 1814  ls
+ 1815  cd repoSO25B
+ 1816  git push
+ 1817  ping -c 4 8.8.8.8
+ 1818  pwd
+ 1819  ls 
+ 1820  clear
+ 1821  ls
+ 1822  cd repoSO25B
+ 1823  ls
+ 1824  mkdir Examen1P_Revision
+ 1825  ls 
+ 1826  mv ~/“Examen_1P_Eric_Carmen_Soto Revision.pdf” ~/repoSO25B/Examen1P_Revision/
+ 1827  mv "Examen_1P_Eric_Carmen_Soto Revision.pdf" Examen1P_Revision/
+ 1828  mv Examen_1P_Eric_Carmen_Soto\ Revision.pdf Examen1P_Revision/
+ 1829  clear
+ 1830  mv "~/Examen_1P_Eric_Carmen_Soto Revision.pdf" ~/repoSO25B/Examen1P_Revision/
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  pwd
+ 1835  mv "Examen_1P_Eric_Carmen_Soto Revision.pdf" repoSO25B/Examen1P_Revision/
+ 1836  cd Examen1P_Revision
+ 1837  ls
+ 1838  pwd
+ 1839  ls 
+ 1840  cd repoSO25B
+ 1841  ls
+ 1842  cd Examen1P_Revision
+ 1843  ls
+ 1844  clear
+ 1845  cd ..
+ 1846  clear
+ 1847  git status
+ 1848  git add .
+ 1849  git commit -m "revisión y actividad 2/10/2025"
+ 1850  git push
+ 1851  sudo iptables -nL
+ 1852  sudo iptables -Lv
+ 1853  sudo iptables -L -v
+ 1854  sudo iptables -P INPUT DROP
+ 1855  sudo iptables -L -v
+ 1856  clear
+ 1857  sudo iptables -a FORWARD -i eth1 -o eth0 -j ACCEPT
+ 1858  clear
+ 1859  sudo iptables -A FORWARD -i eth1 -o eth0 -j ACCEPT
+ 1860  sudo iptables -L -v
+ 1861  sudo iptables -A INPUT -i eth1 -o eth0 -j ACCEPT
+ 1862  sudo iptables -A INPUT -i eth1 -j ACCEPT
+ 1863  sudo iptables -A INPUT -i eth1 -j DROP
+ 1864  sudo iptables -L -v
+ 1865  clear
+ 1866  sudo iptables -A INPUT -i eth1 -o eth0m-j REJECT
+ 1867  sudo iptables -A INPUT -i eth1 -o eth0 -j REJECT
+ 1868  sudo iptables -A INPUT -i eth1 -j REJECT
+ 1869  sudo iptables -L -v
+ 1870  clear
+ 1871  sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state ESTABLISHED, RELATE -j ACCEPT
+ 1872  sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state ESTABLISHED, RELATED -j ACCEPT
+ 1873  sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state ESTABLISHED,RELATED -j ACCEPT
+ 1874  sudo iptables -L -v
+ 1875  sudo iptables -A INPUT -i eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+ 1876  sudo iptables -A OUTPUT -o eth1 -m state --state ESTABLISHED,RELATED -j ACCEPT
+ 1877  sudo iptables -L -v
+ 1878  clear
+ 1879  sudo iptables -A INPUT -i eth0 --state ESTABLISHED,RELATED -j ACCEPT
+ 1880  sudo iptables -A INPUT -i eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+ 1881  sudo iptables -L -v
+ 1882  sudo iptables -A INPUT -i eth1 -s 0/0 -d 0/0 -j ACCEPT
+ 1883  sudo iptables -L -v
+ 1884  sudo iptables -A INPUT -i lo -s 0/0 -d 0/0 -j ACCEPT
+ 1885  sudo iptables -L -v
+ 1886  clear
+ 1887  sudo iptables -A POSTROUTING -t nat -s 192.168.0.0/24 -o eth0 -j SNAT --TO-SOURCE X.Y.Z.C
+ 1888  iptables -A POSTROUTING -t nat -s 192.168.0.0/24 -o eth0 -j SNAT --to-source 1.1.1.1
+ 1889  sudo iptables -A POSTROUTING -t nat -s 192.168.0.0/24 -o eth0 -j SNAT --to-source 1.1.1.1
+ 1890  sudo iptables -L -v
+ 1891  sudo iptables -t nat -L -v -n
+ 1892  sudo iptables -t nat -L -v
+ 1893  sudo iptables INPUT -L -v
+ 1894  sudo iptables -A PREROUTING -t nat -s 192.168.0.0/24 -o eth0 -j SNAT --to-source 1.1.1.1
+ 1895  -o eth0 -j SNAT --to-source 1.1.1.1
+ 1896  CLEAR
+ 1897  clear
+ 1898  sudo iptables -t nat -A PREROUTING -s 192.168.0.0/24 -i eth0 -j DNAT --to-destination 1.1.1.1
+ 1899  sudo iptables -t nat -A INPUT -s 192.168.0.0/24 -i eth0 -j DNAT --to-destination 1.1.1.1
+ 1900  sudo iptables -t nat -A OUTPUT -s 192.168.0.0/24 -o eth0 -j SNAT --to-source 1.1.1.1
+ 1901  sudo iptables INPUT -L -v
+ 1902  sudo iptables -t nat -L -v
+ 1903  sudo iptables -A INPUT -t nat -s 192.168.0.0/24 -i eth0 -j SNAT --to-source 1.1.1.1
+ 1904  clear
+ 1905  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 25 --syn -j ACCEPT
+ 1906  iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 80 --syn -j ACCEPT
+ 1907  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 80 --syn -j ACCEPT
+ 1908  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 443 --syn -j ACCEPT
+ 1909  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 22 --syn -j ACCEPT
+ 1910  sudo iptables -l -v
+ 1911  sudo iptables -L -v
+ 1912  clear
+ 1913  sudo 
+ 1914  iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 110 --syn -j ACCEPT
+ 1915  clear
+ 1916  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 110 --syn -j ACCEPT
+ 1917  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 995 --syn -j ACCEPT
+ 1918  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 143 --syn -j ACCEPT
+ 1919  sudo iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 993 --syn -j ACCEPT
+ 1920  sudo iptables -L -v
+ 1921  sudo iptables -A INPUT -i eth1 -p udp --sport 68 --dport 67 -j ACCEPT
+ 1922  sudo iptables -A INPUT -p udp -s 200.33.146.217/32 --source-port 53 -d 0/0 -j ACCEPT
+ 1923  sudo iptables -L -v
+ 1924  sudo iptables -A INPUT -p tcp --destination-port 22 -j DROP
+ 1925  sudo iptables -A INPUT -p udp --destination-port 23 -j DROP
+ 1926  sudo iptables -L -v
+ 1927  sudo iptables -A INPUT -s 200.33.146.217 -j DROP
+ 1928  sudo iptables -A OUTPUT -s 200.33.146.217 -j DROP
+ 1929  iptables -A OUTPUT -d 200.33.146.217 -s 192.168.0.0/24 -j REJECT
+ 1930  sudo iptables -A OUTPUT -d 200.33.146.217 -s 192.168.0.0/24 -j REJECT
+ 1931  sudo iptables -L -v
+ 1932  sudo iptables -D INPUT -s 200.33.147.217 -j DROP
+ 1933  sudo iptables -D OUTPUT -s 192.168.0.0/24 -d nsmex4.uninet.net.mx -j REJECT --reject-with icmp-port-unreachable
+ 1934  clear
+ 1935  service iptables save
+ 1936  sudo service iptables save
+ 1937  sudo systemctl iptables save
+ 1938  sudo service iptables start
+ 1939  sudo apt update
+ 1940  sudo apt install iptables-persistent
+ 1941  clrear
+ 1942  clear
+ 1943  man cron 
+ 1944  sudo SERVICE CROND STATUS
+ 1945  sudo CROND STATUS
+ 1946  sudo crond status
+ 1947  sudo service crond status
+ 1948  sudo ps -ef | grep CROND
+ 1949  CRONTAB -E
+ 1950  crontab -e
+ 1951  sudo crontab
+ 1952  CRONTAB -E
+ 1953  crontab -e
+ 1954  sudo iptables -L -v
+ 1955  clear
+ 1956  pwd
+ 1957  ls
+ 1958  cd repoSO25B
+ 1959  ls
+ 1960  cd Trabajo_en_clase
+ 1961  ls 
+ 1962  mkdir 03_10_2025
+ 1963  cd 03_10_2025
+ 1964  ls
+ 1965  mv A1_03_10_2025.jpeg ~/repoSO25B/Trabajo_en_clase/03_10_2025/
+ 1966  mv ~/A1_03_10_2025.jpeg ~/repoSO25B/Trabajo_en_clase/03_10_2025/
+ 1967  LS
+ 1968  ls
+ 1969  mv "Carmen Soto Eric_2125696_03_10_2025.jpg" ~/repoSO25B/Asistencias/
+ 1970  cd ..
+ 1971  ls
+ 1972  cd ..
+ 1973  ls
+ 1974  cd ..
+ 1975  ls
+ 1976  mv "Carmen Soto Eric_2125696_03_10_2025.jpg" ~/repoSO25B/Asistencias/
+ 1977  cd repoSO25B
+ 1978  ls
+ 1979  cd Asistencias
+ 1980  ls
+ 1981  cd ..
+ 1982  clear
+ 1983  git status
+ 1984  git add .
+ 1985  git commit -m "Primer commit: subiendo trabajo en clase y Asistencias"
+ 1986  git push -u origin main
+ 1987  ls
+ 1988  clear
+ 1989  history
+ 1990  clear
+ 1991  sudo iptables -L -v
+ 1992  clear
+ 1993  sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+ 1994  sudo iptables -L -v
+ 1995  clear
+ 1996  sudo iptables -A FORWARD -p tcp --dport 22 -j DROP
+ 1997  sudo iptables -L -v
+ 1998  clear
+ 1999  sudo iptables -D FORWARD -p tcp --dport 22 -j DROP
+ 2000  sudo iptables -L FORWARD -v | grep 22
+ 2001  sudo iptables -L FORWARD -v
+ 2002  clear
+ 2003  sudo iptables -L -v
+ 2004  clear
+ 2005  pwd
+ 2006  ls
+ 2007  cd 
+ 2008  cd repoSO25B
+ 2009  ls
+ 2010  cd Tareas
+ 2011  ls
+ 2012  mv 'Tarea CONFIGURACIÓN Y ANÁLISIS DE REGLAS.pdf' ~/repoSO25B/Tareas/'Tarea CONFIGURACIÓN Y ANÁLISIS DE REGLAS_09_10_2025.pdf'
+ 2013  mv ~/Tarea\ CONFIGURACIÓN\ Y\ ANÁLISIS\ DE\ REGLAS.pdf ~/repoSO25B/Tareas/'Tarea CONFIGURACIÓN Y ANÁLISIS DE REGLAS_09_10_2025.pdf'
+ 2014  ls
+ 2015  mv ~/repoSO25B/Tareas/'Tarea CONFIGURACIÓN Y ANÁLISIS DE REGLAS_09_10_2025.pdf' ~/repoSO25B/Tareas/'IPTABLES – CONFIGURACIÓN Y ANÁLISIS DE REGLAS_09_10_2025.pdf'
+ 2016  ls
+ 2017  cd ..
+ 2018  clear
+ 2019  git status
+ 2020  git add .
+ 2021  git commit -m "Tarea del 09/10/2025"
+ 2022  git push
+ 2023  clear
+ 2024  cd ..
+ 2025  clear
+ 2026  uptime
+ 2027  time
+ 2028  top
+ 2029  top -d 3
+ 2030  top -l
+ 2031  top 1
+ 2032  top l
+ 2033  top n
+ 2034  top -b
+ 2035  top -u root
+ 2036  clear 
+ 2037  top 
+ 2038  top -d 1
+ 2039  top n 8
+ 2040  top
+ 2041  clear
+ 2042  ps
+ 2043  ps -e
+ 2044  ps -u root
+ 2045  ps -o
+ 2046  ps -o s
+ 2047  ps -e
+ 2048  ps -x
+ 2049  ps -aux
+ 2050  ps -u root
+ 2051  ps tree
+ 2052  pstree
+ 2053  psforest
+ 2054  ps forest
+ 2055  clear
+ 2056  vmstat
+ 2057  vmstat -a
+ 2058  vmstat -f
+ 2059  vmstat -s
+ 2060  vmstat -d 
+ 2061  vmstat -n
+ 2062  vmstat n
+ 2063  vmstat 
+ 2064  clear
+ 2065  ps -e
+ 2066  ps -u root
+ 2067  ps -l
+ 2068  ps -a
+ 2069  ps -x
+ 2070  ps aux
+ 2071  ps --forest
+ 2072  pstree
+ 2073  vmstat
+ 2074  vmstat -a
+ 2075  vmstat -f
+ 2076  vmstat -d
+ 2077  vmstat 1
+ 2078  vmstat 2
+ 2079  vmstat 5
+ 2080  vmstat -s
+ 2081  free
+ 2082  free -s 2
+ 2083  free -c 3
+ 2084  free -c 5
+ 2085  free -c 1
+ 2086  free -t
+ 2087  df
+ 2088  df -h
+ 2089  df -i
+ 2090  df -m
+ 2091  df -T
+ 2092  du /home
+ 2093  du -h
+ 2094  du -h /home
+ 2095  du -sh /home
+ 2096  du -m /home
+ 2097  du -k /home
+ 2098  clear
+ 2099  cat /etc/shells
+ 2100  which bash
+ 2101  sudo su
+ 2102  pwd
+ 2103  cd ..
+ 2104  sudo nano primer.sh
+ 2105  ls
+ 2106  chmod +x primer.sh
+ 2107  sudo chmod +x primer.sh
+ 2108  la -al
+ 2109  ./primer.sh
+ 2110  nano primer.sh
+ 2111  sudo nano primer.sh
+ 2112  ./primer.sh
+ 2113  nano actualizar.sh
+ 2114  sudo nano actualizar.sh
+ 2115  chmod +x actualizar.sh
+ 2116  sudo chmod +x actualizar.sh
+ 2117  ./actualizar.sh
+ 2118  ls
+ 2119  ./actualizar.sh
+ 2120  sudo nano actualizar.sh
+ 2121  ./actualizar.sh
+ 2122  history > A1_09_10_2025.txt
+ 2123  sudo history > A1_09_10_2025.txt
+ 2124  ce ericc
+ 2125  cd ericc
+ 2126  sudo history > A1_09_10_2025.txt
+ 2127  history > A1_09_10_2025.txt
