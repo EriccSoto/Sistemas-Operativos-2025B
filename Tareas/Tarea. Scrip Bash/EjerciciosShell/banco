@@ -1,0 +1,99 @@
+#!/bin/bash
+
+BANCO_FILE=~/.banco.txt
+
+function help() {
+cat << DESCRIPCION_AYUDA
+SYNOPSIS
+  $0 OPCION [PARAMETRO_2] ... [PARAMETRO_N]
+
+DESCRIPCIÓN
+  Añade, busca, lista y opera con movimientos bancarios.
+
+OPCIONES
+  -h --help                           Muestra esta ayuda.
+  -a --add    FECHA CONCEPTO CANTIDAD Añade un movimiento bancario.
+  -s --search PATRÓN                  Busca un movimiento bancario.
+  -l --list                           Lista los movimientos ordenados por fecha.
+  -t --total                          Calcula el saldo total de la cuenta.
+
+CÓDIGOS DE RETORNO
+  0 Si no hay ningún error.
+  1 Opción inválida.
+  2 Cantidad no numérica.
+  3 Número de parámetros incorrecto.
+  4 Fecha inválida.
+  5 Error de entrada/salida.
+ 12 Movimiento duplicado por fecha.
+DESCRIPCION_AYUDA
+}
+
+function exitWithError() {
+  echo "$0: línea $1: Error $3: $2"
+  exit $3
+}
+
+function testDateExists() {
+  DATE=$1
+  grep -q "^$DATE " "$BANCO_FILE" && exitWithError $LINENO "Ya existe un movimiento para la fecha '$DATE'." 12
+}
+
+function testIsDate() {
+  echo "$1" | grep -Eq "^20[0-9]{2}-[01][0-9]-[0-3][0-9]$" || exitWithError $LINENO "'$1' no es una fecha válida." 4
+}
+
+function testIsNumber() {
+  echo "$1" | awk '{exit ($1+0 == $1 ? 0 : 1)}' || exitWithError $LINENO "'$1' no es un número válido." 2
+}
+
+function testParameterNumber() {
+  EXPECTED=$1
+  shift
+  [ $# -ne $EXPECTED ] && exitWithError $LINENO "Número de parámetros obligatorio: $EXPECTED" 3
+}
+
+function add() {
+  testParameterNumber 3 "$@"
+  FECHA=$1
+  CONCEPTO=$2
+  CANTIDAD=$3
+  testIsDate "$FECHA"
+  testDateExists "$FECHA"
+  testIsNumber "$CANTIDAD"
+  echo "$FECHA $CONCEPTO $CANTIDAD" >> "$BANCO_FILE"
+}
+
+function search() {
+  testParameterNumber 1 "$@"
+  grep "$1" "$BANCO_FILE"
+}
+
+function list() {
+  sort -k1 "$BANCO_FILE"
+}
+
+function total() {
+  awk '{s+=$3} END {print "Total=" s}' "$BANCO_FILE"
+}
+
+function createFileIfNotExists() {
+  touch "$BANCO_FILE" || exitWithError $LINENO "Error de entrada/salida en $BANCO_FILE" 5
+}
+
+function menu() {
+  case "$1" in
+    -h|--help) help ;;
+    -a|--add) shift; add "$@" ;;
+    -s|--search) shift; search "$@" ;;
+    -l|--list) list ;;
+    -t|--total) total ;;
+    *) exitWithError $LINENO "Opción '$1' inválida." 1 ;;
+  esac
+}
+
+function init() {
+  createFileIfNotExists
+  menu "$@"
+}
+
+init "$@"

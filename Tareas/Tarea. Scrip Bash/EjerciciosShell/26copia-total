@@ -1,0 +1,42 @@
+#!/bin/bash
+
+############################################################
+# INICIO VARIABLES
+############################################################
+
+FECHA=$(date +%Y.%m.%d-%H.%M.%S)
+RUTA_FICHEROS=~/copia_seguridad
+FICHERO_ULTIMA_COPIA_TOTAL="$RUTA_FICHEROS/fecha-ultima-copia-total.txt"
+FICHERO_COMPRIMIDO="$RUTA_FICHEROS/total$FECHA.tar.zip"
+DIRECTORIO_A_COPIAR=./directorio_a_copiar   # carpeta en la ruta actual
+
+############################################################
+# VALIDACIONES
+############################################################
+
+# Validar existencia del directorio a copiar
+if [ ! -d "$DIRECTORIO_A_COPIAR" ]; then
+  echo "No existe el directorio a copiar: $DIRECTORIO_A_COPIAR"
+  exit 1
+fi
+
+# Crear carpeta de destino si no existe
+if [ ! -d "$RUTA_FICHEROS" ]; then
+  mkdir -p "$RUTA_FICHEROS" || {
+    echo "Error al crear el directorio de destino: $RUTA_FICHEROS"
+    exit 2
+  }
+fi
+
+############################################################
+# OPERACIONES
+############################################################
+
+# Registrar fecha de la última copia
+echo "$FECHA" > "$FICHERO_ULTIMA_COPIA_TOTAL"
+
+# Empaquetar y comprimir el directorio
+zip -r "$FICHERO_COMPRIMIDO" "$DIRECTORIO_A_COPIAR" > /dev/null
+
+# Confirmación final
+echo "Copia realizada correctamente: $FICHERO_COMPRIMIDO"

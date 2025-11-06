@@ -1,0 +1,44 @@
+#!/bin/bash
+# Script demonio que escribe la fecha cada X segundos en ~/alerta.log
+
+function ayuda() {
+cat << DESCRIPCION_AYUDA
+SYNOPSIS
+  $0 [SEGUNDOS]
+
+DESCRIPCIÓN
+  Escribe la fecha cada X segundos en el log '~/alerta.log'.
+
+CÓDIGOS DE RETORNO
+  0 Si no hay ningún error.
+DESCRIPCION_AYUDA
+}
+
+# Mostrar ayuda si se solicita
+if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
+  ayuda
+  exit 0
+fi
+
+# Parámetro recibido
+SEGUNDOS=$1
+DEFAULT=2
+
+# Validar que SEGUNDOS sea numérico
+if ! echo "$SEGUNDOS" | grep -Eq '^[0-9]+$'; then
+  echo "El parámetro '$1' no es un número. Se usará el valor por defecto ($DEFAULT)"
+  SEGUNDOS=$DEFAULT
+fi
+
+# Reiniciar el log
+echo "" > ~/alerta.log
+
+# Mostrar PID del proceso
+echo "PID del demonio: $$"
+
+# Bucle infinito
+while true; do
+  date '+%d/%m/%Y %H:%M:%S' >> ~/alerta.log
+  sleep "$SEGUNDOS"
+done
+
