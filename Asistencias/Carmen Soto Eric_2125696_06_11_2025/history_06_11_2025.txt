@@ -1,0 +1,1000 @@
+ 1693  sudo chmod +x bucleif.sh
+ 1694  ./bucleif.sh
+ 1695  sudo nano bucledec.sh
+ 1696  sudo chmod +x bucledec.sh
+ 1697  ./bucledec.sh
+ 1698  sudo nano elif.sh
+ 1699  sudo chmod +x elif.sh
+ 1700  ./elif.sh
+ 1701  clear
+ 1702  sudo nano case.sh
+ 1703  sudo chmod +x case.sh
+ 1704  ./case.sh
+ 1705  pwd
+ 1706  cd ..
+ 1707  pwd
+ 1708  cd ..
+ 1709  ls
+ 1710  clear
+ 1711  ls
+ 1712  cd repoSO25B
+ 1713  ls
+ 1714  cd Tareas
+ 1715  ls
+ 1716  cd Tarea Bash Script
+ 1717  cd "Tarea Bash Script"
+ 1718  mv ~/cap{1,2,3,4}.png ~/repoSO25B/Tareas/"Tarea Bash Script"/
+ 1719  ls
+ 1720  cd ..
+ 1721  mv "Tarea Bash Script" "Tarea Bash Script_17_10_2025"
+ 1722  ls
+ 1723  cd Tarea Bash Script_17_10_2025
+ 1724  ls
+ 1725  cd "Tarea Bash Script_17_10_2025"
+ 1726  ls
+ 1727  cd..
+ 1728  clear
+ 1729  cd ..
+ 1730  git status
+ 1731  git commit -m "Tarea de bash 17/10/2025"
+ 1732  git add .
+ 1733  git commit -m "Tarea de bash 17/10/2025"
+ 1734  git push
+ 1735  man crontab
+ 1736  sudo systemctl status cron
+ 1737  sudo systemctl start cron
+ 1738  crontab -e
+ 1739  crontab -l
+ 1740  crontab -r
+ 1741  crontab -l
+ 1742  pwd
+ 1743  sudo nano mi_script.sh
+ 1744  sudo chmod +x ~/mi_script.sh
+ 1745  crontab -e
+ 1746  cat /home/ericc/cron_script.log
+ 1747  crontab -e
+ 1748  pwd
+ 1749  crontab -e
+ 1750  cat cronoF.txt
+ 1751  ls
+ 1752  crontab -l
+ 1753  crontab -r
+ 1754  crontab -e
+ 1755  clear
+ 1756  crontab -l
+ 1757  cat cronoF.txt
+ 1758  crontab -e
+ 1759  cat cronoF.txt
+ 1760  crontab -e
+ 1761  crontab -l
+ 1762  crontab -e
+ 1763  crontab -l
+ 1764  pwd
+ 1765  cat cronoF.txt
+ 1766  rm cronoF.txt
+ 1767  clear
+ 1768  cat cronoF.txt
+ 1769  crontab -e
+ 1770  clear
+ 1771  cat cronoF.txt
+ 1772  cat cronoF2.txt
+ 1773  ls
+ 1774  cd ..
+ 1775  ls
+ 1776  sudo nano actualizar.sh
+ 1777  ./actualizar.sh
+ 1778  clear
+ 1779  crontab -r
+ 1780  crontab -l
+ 1781  crontab -i
+ 1782  crontab -ri
+ 1783  crontab -i
+ 1784  date
+ 1785  clear
+ 1786  crontab -e
+ 1787  sudo cat actualizar.sh
+ 1788  crontab -e
+ 1789  cat update.txt
+ 1790  crontab -e
+ 1791  cat update.txt
+ 1792  crontab -e
+ 1793  ls -l /home/actualizar.sh
+ 1794  cat /home/update.txt
+ 1795  crontab -e
+ 1796  pwd
+ 1797  ls
+ 1798  crontab -e
+ 1799  mv /home/actualizar.sh /home/ericc/actualizar.sh
+ 1800  chmod +x /home/ericc/actualizar.sh
+ 1801  sudo mv /home/actualizar.sh /home/ericc/actualizar.sh
+ 1802  cd ericc
+ 1803  crontab -e
+ 1804  pwd
+ 1805  ls
+ 1806  crontab -l
+ 1807  cat /home/ericc/update.txt
+ 1808  ls
+ 1809  ls -l /home/ericc/update.txt
+ 1810  cat update.txt
+ 1811  sudo nano update.txt
+ 1812  crontab -e
+ 1813  crontab -l
+ 1814  ls
+ 1815  repoSO25B
+ 1816  cd repoSO25B
+ 1817  ls
+ 1818  cd Asistencias
+ 1819  ls
+ 1820  mkdir 'Carmen Soto Eric_2125696_17_10_2025'
+ 1821  cd 'Carmen Soto Eric_2125696_17_10_2025'
+ 1822  cd ..
+ 1823  cd .
+ 1824  cd ..
+ 1825  ls
+ 1826  cd ..
+ 1827  ls
+ 1828  mv ~/c{1,2}_17_10_2025.png ~/cronoF.txt ~/repoSO25B/Asistencias/Carmen\ Soto\ Eric_2125696_17_10_2025/
+ 1829  ls
+ 1830  cd repoSO25B
+ 1831  ls
+ 1832  cd Trabajo_en_clase
+ 1833  ls
+ 1834  mkdir 17_10_2025
+ 1835  cd 17_10_2025
+ 1836  cd ..
+ 1837  ls
+ 1838  pwd
+ 1839  mv ~/tc1_17_10_2025.png ~/repoSO25B/Trabajo_en_clase/17_10_2025/
+ 1840  ls
+ 1841  cd cd ~/repoSO25B
+ 1842  cd ~/repoSO25B
+ 1843  git status
+ 1844  git add .
+ 1845  git commit -m 'actividad de "17_10_2025" crontab y bash'
+ 1846  git push
+ 1847  pwd
+ 1848  ls
+ 1849  cd ericc
+ 1850  pwd
+ 1851  cd clear
+ 1852  cls
+ 1853  clear
+ 1854  pwd
+ 1855  ls
+ 1856  cd repoSO25B
+ 1857  ls
+ 1858  cd Tareas
+ 1859  ls
+ 1860  mkdir "Tarea. Backup programado"
+ 1861  cd "Tarea. Backup programado"
+ 1862  mkdir backupNov25
+ 1863  clear
+ 1864  ls
+ 1865  mkdir carpeta_origen
+ 1866  echo "Archivo de prueba 1" > carpeta_origen/archivo1.txt
+ 1867  echo "Archivo de prueba 2" > carpeta_origen/archivo2.txt
+ 1868  ls
+ 1869  cd carpeta_origen
+ 1870  ls
+ 1871  cd ..
+ 1872  cd backupNov25
+ 1873  ls
+ 1874  cd ..
+ 1875  nano RespSep24.sh
+ 1876  ls
+ 1877  sudo chmod +x RespSep24.sh
+ 1878  ./RespSep24.sh
+ 1879  ls backupNov25
+ 1880  tar -tzf backupNov25/backup041125_14057.tar.gz
+ 1881  tar -tzf backupNov25/backup041125_140457.tar.gz
+ 1882  crontab -e
+ 1883  ls
+ 1884  crontab -l
+ 1885  crontab -e
+ 1886  ls
+ 1887  ls backupNov25
+ 1888  tail -n 20 cron_script.log
+ 1889  tail cron_script.log
+ 1890  cat cron_script.log
+ 1891  ls
+ 1892  cd backupNov25
+ 1893  ls
+ 1894  tar -tzf backupNov25/backup041125_170622.tar.gz
+ 1895  tar -tzf backup041125_170622.tar.gz
+ 1896  ls
+ 1897  cd ..
+ 1898  ls
+ 1899  cd carpeta_origen
+ 1900  ls
+ 1901  cd ..
+ 1902  ls
+ 1903  backupNov25
+ 1904  cd backupNov25
+ 1905  ls
+ 1906  tar -tzf backup041125_140457.tar.gz
+ 1907  tar -xzf backup041125_140457.tar.gz
+ 1908  ls
+ 1909  cd home
+ 1910  ls
+ 1911  cd ericc
+ 1912  ls
+ 1913  cd repoSO25B
+ 1914  ls
+ 1915  cd Tareas
+ 1916  ls 
+ 1917  cd ..
+ 1918  cd /ericc/repoSO25B/Tareas/Tarea. Backup programado/carpeta_origen
+ 1919  lsclear
+ 1920  clear
+ 1921  ls
+ 1922  cd ..
+ 1923  ls
+ 1924  rmdir home
+ 1925  ls -R home
+ 1926  rm -r home
+ 1927  clear
+ 1928  ls
+ 1929  cd ..
+ 1930  ls
+ 1931  cat "/home/ericc/repoSO25B/Tareas/Tarea. Backup programado/cron_script.log"
+ 1932  ls
+ 1933  clear
+ 1934  ls
+ 1935  cd carpeta_origen
+ 1936  ls
+ 1937  cd ..
+ 1938  cd backupNov25
+ 1939  ls
+ 1940  tar -tzf backup041125_140457.tar.gz
+ 1941  cd ..
+ 1942  ls
+ 1943  cat "/home/ericc/repoSO25B/Tareas/Tarea. Backup programado/cron_script.log"
+ 1944  crontab -l
+ 1945  clear
+ 1946  ls
+ 1947  cat RespSep24.sh
+ 1948  ls
+ 1949  cd backupNov25
+ 1950  ls
+ 1951  clear
+ 1952  ls
+ 1953  cd ..
+ 1954  ls
+ 1955  cat  cron_script.log
+ 1956  clear
+ 1957  cd ..
+ 1958  ls
+ 1959  pwd
+ 1960  cd repoSO25B
+ 1961  ls
+ 1962  cd Tareas
+ 1963  ls
+ 1964  cd 'Tarea. Backup programado'
+ 1965  ls
+ 1966  pwd
+ 1967  mv "/home/ericc/repoSO25B/Tareas/Tarea. Backup programado/Tarea. Backup programado.pdf" /home/ericc/
+ 1968  mv "/home/ericc/Tarea. Backup programado.pdf" "/home/ericc/repoSO25B/Tareas/Tarea. Backup programado/"
+ 1969  ls
+ 1970  cd ..
+ 1971  clear
+ 1972  cd ..
+ 1973  git status
+ 1974  ls
+ 1975  cd Tareas
+ 1976  ls
+ 1977  cd 'Tarea. Backup programado'
+ 1978  ls
+ 1979  cd ..
+ 1980  ls 
+ 1981  cat saludo.txt
+ 1982  cat saludo.txt.gpg
+ 1983  git status 
+ 1984  git add .
+ 1985  git commit -m "Encriptado de saludo + tarea de backup crontab 6/11/2025"
+ 1986  git push 
+ 1987  ls
+ 1988  cd repoSO25B
+ 1989  git status
+ 1990  ls
+ 1991  git push 
+ 1992  crontab -e
+ 1993  crontab -r
+ 1994  crontab -l
+ 1995  crontab -e
+ 1996  clear
+ 1997  ls
+ 1998  cd Tareas
+ 1999  ls 
+ 2000  mkdir -p ~/repoSO25B/Tareas/EjerciciosShell
+ 2001  cd EjerciciosShell
+ 2002  ls
+ 2003  clear
+ 2004  pwd
+ 2005  clear
+ 2006  sudo nano 01-hola-mundo.sh
+ 2007  sudo chmod +x 01-hola-mundo.sh
+ 2008  ./01-hola-mundo.sh
+ 2009  sudo cat 01-hola-mundo.sh
+ 2010  clear
+ 2011  sudo nano 02-hola-parametros.sh
+ 2012  sudo chmod +x 02-hola-parametros.sh
+ 2013  cat 02-hola-parametros.sh
+ 2014  ls
+ 2015  ./02-hola-parametros.sh Eric Soto
+ 2016  ./02-hola-parametros.sh uaemex
+ 2017  clear
+ 2018  sudo nano 03-hola-al-menos-1-parametro.sh
+ 2019  sudo chmod +x 03-hola-al-menos-1-parametro.sh
+ 2020  cat 03-hola-al-menos-1-parametro.sh
+ 2021  ./03-hola-al-menos-1-parametro.sh
+ 2022  ./03-hola-al-menos-1-parametro.sh Eric Soto
+ 2023  ./03-hola-al-menos-1-parametro.sh Eric Soto alumno de uaemex
+ 2024  clear
+ 2025  ls
+ 2026  clwear
+ 2027  clear
+ 2028  sudo nano 04-hola-parametros-separados.sh
+ 2029  sudo chmod +x 04-hola-parametros-separados.sh
+ 2030  cat 04-hola-parametros-separados.sh
+ 2031  ./04-hola-parametros-separados.sh
+ 2032  ./04-hola-parametros-separados.sh Eric
+ 2033  ./04-hola-parametros-separados.sh Eric Soto alumno UAEMex
+ 2034  clear
+ 2035  sudo nano 05-hola-con-ayuda.sh
+ 2036  clear
+ 2037  sudo nano 05-hola-con-ayuda.sh
+ 2038  sudo chmod +x 05-hola-con-ayuda.sh
+ 2039  cat 05-hola-con-ayuda.sh
+ 2040  ./05-hola-con-ayuda.sh
+ 2041  ./05-hola-con-ayuda.sh Eric
+ 2042  ./05-hola-con-ayuda.sh Eric Soto alumno UAEMex
+ 2043  clear
+ 2044  sudo nano 06-hola-usuario.sh
+ 2045  sudo chmod +x 06-hola-usuario.sh
+ 2046  cat 06-hola-usuario.sh
+ 2047  ./06-hola-usuario.sh
+ 2048  ./06-hola-usuario.sh ericc
+ 2049  ./06-hola-usuario.sh fulanito
+ 2050  ./06-hola-usuario.sh ericc fulanito
+ 2051  clear
+ 2052  sudo nano 07-hola-usuario-conectado.sh
+ 2053  sudo chmod +x 07-hola-usuario-conectado.sh
+ 2054  cat 07-hola-usuario-conectado.sh
+ 2055  ./07-hola-usuario-conectado.sh
+ 2056  ./07-hola-usuario-conectado.sh ericc
+ 2057  ./07-hola-usuario-conectado.sh ericc fulanito
+ 2058  ./07-hola-usuario-conectado.sh juan maria
+ 2059  clear
+ 2060  sudo nano 08-hola-usuario-conectado-con-mensaje.sh
+ 2061  sudo chmod +x 08-hola-usuario-conectado-con-mensaje.sh
+ 2062  cat 08-hola-usuario-conectado-con-mensaje.sh
+ 2063  ./08-hola-usuario-conectado-con-mensaje.sh
+ 2064  ./08-hola-usuario-conectado-con-mensaje.sh ericc Bienvenido
+ 2065  clear
+ 2066  sudo nano 08-hola-usuario-conectado-con-mensaje.sh
+ 2067  sudo chmod +x 08-hola-usuario-conectado-con-mensaje.sh
+ 2068  cat 08-hola-usuario-conectado-con-mensaje.sh
+ 2069  ./08-hola-usuario-conectado-con-mensaje.sh
+ 2070  ./08-hola-usuario-conectado-con-mensaje.sh ericc Bienvenido
+ 2071  ./08-hola-usuario-conectado-con-mensaje.sh fulanito -- Hola
+ 2072  ./08-hola-usuario-conectado-con-mensaje.sh ericc -- Bienvenido al sistema
+ 2073  clear
+ 2074  sudo nano 09-hola-usuario-conectado-con-mensaje-archivo.sh
+ 2075  sudo chmod +x 09-hola-usuario-conectado-con-mensaje-archivo.sh
+ 2076  cat 09-hola-usuario-conectado-con-mensaje-archivo.sh
+ 2077  ./09-hola-usuario-conectado-con-mensaje-archivo.sh
+ 2078  ./09-hola-usuario-conectado-con-mensaje-archivo.sh fulanito -- Hola
+ 2079  ./09-hola-usuario-conectado-con-mensaje-archivo.sh ericc -- Bienvenido al sistema
+ 2080  ./09-hola-usuario-conectado-con-mensaje-archivo.sh ericc admin -- Acceso autorizado
+ 2081  who
+ 2082  clear
+ 2083  sudo nano 10-usuariosistema.sh
+ 2084  sudo chmod +x 10-usuariosistema.sh
+ 2085  ./10-usuariosistema.sh
+ 2086  ./10-usuariosistema.sh ericc
+ 2087  ./10-usuariosistema.sh fulanito
+ 2088  cat 10-usuariosistema.sh
+ 2089  clear
+ 2090  sudo nano 11-hola-usuario.sh
+ 2091  clear
+ 2092  sudo nano 11-hola-usuario.sh
+ 2093  sudo chmod +x 11-hola-usuario.sh
+ 2094  cat 11-hola-usuario.sh
+ 2095  ./11-hola-usuario.sh
+ 2096  ./11-hola-usuario.sh ericc
+ 2097  ./11-hola-usuario.sh ericc fulanito
+ 2098  ./11-hola-usuario.sh juan maria
+ 2099  clear
+ 2100  sudo nano 12-suma.sh
+ 2101  sudo chmod +x 12-suma.sh
+ 2102  cat 12-suma.sh
+ 2103  ./12-suma.sh 2.2 3
+ 2104  ./12-suma.sh
+ 2105  ./12-suma.sh 2.2 hola
+ 2106  ./12-suma.sh 5 7
+ 2107  ./12-suma.sh -2.5 4.1
+ 2108  clear
+ 2109  sudo nano 13-resta.sh
+ 2110  sudo chmod +x 13-resta.sh
+ 2111  cat 13-resta.sh
+ 2112  ./13-resta.sh 2.2 3
+ 2113  ./13-resta.sh
+ 2114  ./13-resta.sh 2.2 hola
+ 2115  ./13-resta.sh 10 4
+ 2116  ./13-resta.sh -2.5 4.1
+ 2117  clear
+ 2118  sudo nano 14-multiplica.sh
+ 2119  sudo chmod +x 14-multiplica.sh
+ 2120  cat 14-multiplica.sh
+ 2121  ./14-multiplica.sh 2.2 3
+ 2122  ./14-multiplica.sh
+ 2123  ./14-multiplica.sh 2.2 hola
+ 2124  ./14-multiplica.sh 5 7
+ 2125  ./14-multiplica.sh -2.5 4.1
+ 2126  clear
+ 2127  sudo nano 15-division.sh
+ 2128  clear
+ 2129  sudo nano 15-division.sh
+ 2130  sudo chmod +x 15-division.sh
+ 2131  cat 15-division.sh
+ 2132  ./15-division.sh 2.2 3
+ 2133  ./15-division.sh
+ 2134  clear
+ 2135  sudo nano 15-division.sh
+ 2136  sudo chmod +x 15-division.sh
+ 2137  cat 15-division.sh
+ 2138  ./15-division.sh
+ 2139  ./15-division.sh 2.2 hola
+ 2140  ./15-division.sh 5 0
+ 2141  clear
+ 2142  sudo nano 15-division.sh
+ 2143  sudo chmod +x 15-division.sh
+ 2144  cat 15-division.sh
+ 2145  ./15-division.sh
+ 2146  ./15-division.sh 2.2 hola
+ 2147  ./15-division.sh 5 0
+ 2148  ./15-division.sh 10 4
+ 2149  ./15-division.sh 2.2 3
+ 2150  ./15-division.sh -2.5 4.1
+ 2151  clear
+ 2152  sudo nano 16-calc01.sh
+ 2153  sudo chmod +x 16-calc01.sh
+ 2154  cat 16-calc01.sh
+ 2155  ./16-calc01.sh 2.2 + 3
+ 2156  ./16-calc01.sh
+ 2157  ./16-calc01.sh 2.2 + hola
+ 2158  ./16-calc01.sh 2.2 ^ 3
+ 2159  ./16-calc01.sh 2.2 + 3
+ 2160  ./16-calc01.sh 10 menos 4
+ 2161  ./16-calc01.sh -2.5 x 4.1
+ 2162  ./16-calc01.sh 2.2 / 3
+ 2163  clear
+ 2164  sudo nano 17-calc02.sh
+ 2165  sudo chmod +x 17-calc02.sh
+ 2166  cat 17-calc02.sh
+ 2167  ./17-calc02.sh 2.2 + 3
+ 2168  ./17-calc02.sh
+ 2169  ./17-calc02.sh 2.2 + hola
+ 2170  ./17-calc02.sh 2.2 ^ 3
+ 2171  ./17-calc02.sh 5 / 0
+ 2172  ./17-calc02.sh 2.2 + 3
+ 2173  ./17-calc02.sh 10 menos 4
+ 2174  ./17-calc02.sh -2.5 x 4.1
+ 2175  ./17-calc02.sh 2.2 / 3
+ 2176  clear
+ 2177  sudo nano 18-calc03.sh
+ 2178  sudo chmod +x 18-calc03.sh
+ 2179  cat 18-calc03.sh
+ 2180  ./18-calc03.sh "(2.2 + 3) * 4"
+ 2181  # Simula error borrando permisos de HOME
+ 2182  chmod -w ~
+ 2183  ./18-calc03.sh "2+2"
+ 2184  # Simula error borrando permisos de HOME
+ 2185  chmod -w ~
+ 2186  ./18-calc03.sh "2+2"
+ 2187  ./18-calc03.sh "2+*3"
+ 2188  ./18-calc03.sh "(2.2 + 3) * 4"
+ 2189  clear
+ 2190  sudo nano 18-calc03.sh
+ 2191  sudo chmod +x 18-calc03.sh
+ 2192  cat 18-calc03.sh
+ 2193  ./18-calc03.sh "(2.2 + 3) * 4"
+ 2194  ./18-calc03.sh "2+*3"
+ 2195  ./18-calc03.sh
+ 2196  ./18-calc03.sh "2 + hola"
+ 2197  chmod u+w ~
+ 2198  ./18-calc03.sh "(2.2 + 3) * 4"
+ 2199  ./18-calc03.sh "2+*3"
+ 2200  ./18-calc03.sh "2 + hola"
+ 2201  ./18-calc03.sh
+ 2202  ./18-calc03.sh "2+2"
+ 2203  ./18-calc03.sh "(2.2 + 3) * 4"
+ 2204  ./18-calc03.sh "10-3*2"
+ 2205  ./18-calc03.sh "20/5"
+ 2206  clear
+ 2207  sudo nano 18-calc03.sh
+ 2208  sudo chmod +x 18-calc03.sh
+ 2209  cat 18-calc03.sh
+ 2210  ./18-calc03.sh "2+2"
+ 2211  ./18-calc03.sh "(2.2 + 3) * 4"
+ 2212  ./18-calc03.sh "10-3*2"
+ 2213  ./18-calc03.sh "20/5"
+ 2214  ./18-calc03.sh
+ 2215  ./18-calc03.sh "2+*3"
+ 2216  clear
+ 2217  nano notas.csv
+ 2218  cat notas.csv
+ 2219  clear
+ 2220  nano notas.awk
+ 2221  cat notas.awk
+ 2222  ls
+ 2223  clear
+ 2224  nano notas.awk
+ 2225  cat notas.awk
+ 2226  nano notas.sh
+ 2227  chmod +x notas.sh
+ 2228  cat notas.sh
+ 2229  ./notas.sh
+ 2230  mv notas.csv notas.bak
+ 2231  ./notas.sh
+ 2232  mv notas.bak notas.csv
+ 2233  echo "Juanito,6.0,6.0,6.0" >> notas.csv
+ 2234  ./notas.sh
+ 2235  sed -i '$d' notas.csv
+ 2236  echo "Pruebito 7.0 7.0 7.0" >> notas.csv
+ 2237  ./notas.sh
+ 2238  sed -i '$d' notas.csv
+ 2239  ./notas.sh
+ 2240  clear
+ 2241  nano banco
+ 2242  chmod +x banco
+ 2243  cat banco
+ 2244  ./banco -h
+ 2245  ./banco -a 2025-11-06 Sueldo 5000
+ 2246  ./banco -a 2025-11-07 Supermercado -1200
+ 2247  ./banco -s Sueldo
+ 2248  ./banco -l
+ 2249  ./banco -t
+ 2250  clear
+ 2251  nano banco
+ 2252  chmod +x banco
+ 2253  cat banco
+ 2254  ./banco -h
+ 2255  ./banco -a 2025-11-06 Sueldo 5000
+ 2256  ./banco -a 2025-11-07 Supermercado -1200
+ 2257  ./banco -s Sueldo
+ 2258  ./banco -l
+ 2259  ./banco -t
+ 2260  clear
+ 2261  nano banco-menu.sh
+ 2262  chmod +x banco-menu.sh
+ 2263  cat banco-menu.sh
+ 2264* 
+ 2265  ./banco-menu.sh
+ 2266  clear
+ 2267  nano banco-menu.sh
+ 2268  chmod +x banco-menu.sh
+ 2269  cat banco-menu.sh
+ 2270  ./banco-menu.sh
+ 2271  clera
+ 2272  clear
+ 2273  nano banco-flags.sh
+ 2274  chmod +x banco-flags.sh
+ 2275  cat banco-flags.sh
+ 2276  ./banco-flags.sh -h
+ 2277  ./banco-flags.sh -a "2025-11-08 Gasolina -500"
+ 2278  ./banco-flags.sh -s "Gasolina"
+ 2279  ./banco-flags.sh -l
+ 2280  ./banco-flags.sh -t
+ 2281  ./banco-flags.sh -a "2025-07-28 Insumos 7800"
+ 2282  ./banco-flags.sh -a "2025-08-12 Vuelos 2600"
+ 2283  ./banco-flags.sh -a "2025-10-31 Sueldo 5000"
+ 2284  ./banco-flags.sh -a "2025-11-06 Sueldo 5000"
+ 2285  ./banco-flags.sh -a "2025-11-07 Supermercado -1200"
+ 2286  ./banco-flags.sh -l
+ 2287  ./banco-flags.sh -s "Vuelos"
+ 2288  ./banco-flags.sh -t
+ 2289  ./banco-flags.sh -a "2025-11-08 Gasolina -800"
+ 2290  ./banco-flags.sh -a "2025-11-09 Internet -600"
+ 2291  ./banco-flags.sh -a "2025-11-10 Ropa -900"
+ 2292  ./banco-flags.sh -s "Internet"
+ 2293  ./banco-flags.sh -l
+ 2294  ./banco-flags.sh -t
+ 2295  clear
+ 2296  ./banco-flags.sh -a "2025-11-08 Gasolina -500"
+ 2297  ./banco-flags.sh -a "2025-11-09 Internet -600"
+ 2298  ./banco-flags.sh -a "2025-11-10 Ropa -900"
+ 2299  ./banco-flags.sh -l
+ 2300  clear
+ 2301  ./banco-flags.sh -a "2025-11-11 Farmacia -350"
+ 2302  ./banco-flags.sh -a "2025-11-12 Cine -250"
+ 2303  ./banco-flags.sh -a "2025-11-13 Taxi -180"
+ 2304  ./banco-flags.sh -s "Cine"
+ 2305  ./banco-flags.sh -l
+ 2306  ./banco-flags.sh -t
+ 2307  nano alerta
+ 2308  chmod +x alerta
+ 2309  ./alerta 3 &
+ 2310  tail -f ~/alerta.log
+ 2311  kill PID
+ 2312  kill 4341
+ 2313  ps -ef | grep alerta
+ 2314  clear
+ 2315  nano servicio-alerta.sh
+ 2316  chmod +x servicio-alerta.sh
+ 2317  cat servicio-alerta.sh
+ 2318  ./servicio-alerta.sh start 3
+ 2319  ./servicio-alerta.sh status
+ 2320  tail -f ~/alerta.log
+ 2321  ./servicio-alerta.sh stop
+ 2322  ./servicio-alerta.sh restart 5
+ 2323  ./servicio-alerta.sh status
+ 2324  ./servicio-alerta.sh restart 5
+ 2325  ./servicio-alerta.sh start 5
+ 2326  ./servicio-alerta.sh stop
+ 2327  clear
+ 2328  nano servicio-alerta.sh
+ 2329  chmod +x servicio-alerta.sh
+ 2330  cat servicio-alerta.sh
+ 2331  ./servicio-alerta.sh start 3
+ 2332  ./servicio-alerta.sh status
+ 2333  tail -f ~/alerta.log
+ 2334  ./servicio-alerta.sh restart 5
+ 2335  ./servicio-alerta.sh status
+ 2336  tail -f ~/alerta.log
+ 2337  ./servicio-alerta.sh stop
+ 2338  clear
+ 2339  nano 26copia-total
+ 2340  clear
+ 2341  nano 26copia-total
+ 2342  chmod +x copia-total
+ 2343  clear
+ 2344  nano 26copia-total
+ 2345  chmod +x 26copia-total
+ 2346  cat 26copia-total
+ 2347  ./26copia-total
+ 2348  clear
+ 2349  mkdir -p ~/directorio_a_copiar
+ 2350  echo "archivo de prueba" > ~/directorio_a_copiar/test.txt
+ 2351  ls
+ 2352  clear
+ 2353  nano 26copia-total
+ 2354  chmod +x 26copia-total
+ 2355  mkdir ./directorio_a_copiar
+ 2356  echo "archivo de prueba" > ./directorio_a_copiar/test.txt
+ 2357  ./26copia-total
+ 2358  sudo apt-get install zip
+ 2359  ./26copia-total
+ 2360  cat 26copia-total
+ 2361  clear
+ 2362  nano 27copia-diferencial.sh
+ 2363  chmod +x 27copia-diferencial.sh
+ 2364  cat 27copia-diferencial.sh
+ 2365  mkdir -p ./directorio_a_copiar
+ 2366  echo "archivo inicial" > ./directorio_a_copiar/a1.txt
+ 2367  echo "2025.11.06-10.59.50" > ~/copia_seguridad/fecha-ultima-copia-total.txt
+ 2368  echo "cambio" >> ./directorio_a_copiar/a1.txt
+ 2369  echo "nuevo archivo" > ./directorio_a_copiar/a2.txt
+ 2370  ./27copia-diferencial.sh
+ 2371  ls ~/copia_seguridad
+ 2372  unzip -l ~/copia_seguridad/diferencial*.tar.zip
+ 2373  cat ~/copia_seguridad/fecha-ultima-copia-diferencial.txt
+ 2374  clear
+ 2375  nano 28copia-incremental.sh
+ 2376  chmod +x 28copia-incremental.sh
+ 2377  cat 28copia-incremental.sh
+ 2378  mkdir -p ./directorio_a_copiar
+ 2379  echo "archivo base" > ./directorio_a_copiar/base.txt
+ 2380  echo "2025.11.06-14.00.00" > ./copia_seguridad/fecha-ultima-copia-total.txt
+ 2381  echo "modificado" >> ./directorio_a_copiar/base.txt
+ 2382  echo "nuevo" > ./directorio_a_copiar/nuevo.txt
+ 2383  ./28copia-incremental.sh
+ 2384  clear
+ 2385  nano 28copia-incremental.sh
+ 2386  chmod +x 28copia-incremental.sh
+ 2387  cat 28copia-incremental.sh
+ 2388  mkdir -p ./directorio_a_copiar
+ 2389  echo "archivo base" > ./directorio_a_copiar/base.txt
+ 2390  mkdir -p ./copia_seguridad
+ 2391  echo "2025.11.06-14.00.00" > ./copia_seguridad/fecha-ultima-copia-total.txt
+ 2392  echo "modificado" >> ./directorio_a_copiar/base.txt
+ 2393  echo "nuevo" > ./directorio_a_copiar/nuevo.txt
+ 2394  ./28copia-incremental.sh
+ 2395  ls ./copia_seguridad
+ 2396  unzip -l ./copia_seguridad/incremental*.tar.zip
+ 2397  cat ./copia_seguridad/fecha-ultima-copia-incremental.txt
+ 2398  clear
+ 2399  nano miCrontab
+ 2400  cat miCrontab
+ 2401  crontab miCrontab
+ 2402  crontab -l
+ 2403  cat ~/ultimo-crontab.txt
+ 2404  crontab -r
+ 2405  clear
+ 2406  nano 30array.sh
+ 2407  chmod +x 30array.sh
+ 2408  cat 30array.sh
+ 2409  ./30array.sh
+ 2410  clear
+ 2411  nano roles.csv
+ 2412  cat roles.csv
+ 2413  clear
+ 2414  nano 32roles-sin-awk.sh
+ 2415  chmod +x 32roles-sin-awk.sh
+ 2416  cat 32roles-sin-awk.sh
+ 2417  ./32roles-sin-awk.sh
+ 2418  clear
+ 2419  nano roles.awk
+ 2420  nano 33roles-con-awk.sh
+ 2421  chmod +x 33roles-con-awk.sh
+ 2422  cat roles.awk
+ 2423  cat 33roles-con-awk.sh
+ 2424  ./33roles-con-awk.sh
+ 2425  clrar
+ 2426  clear
+ 2427  nano 34ordena.sh
+ 2428  chmod +x 34ordena.sh
+ 2429  cat 34ordena.sh
+ 2430  ./34ordena.sh
+ 2431  clear
+ 2432  nano 35jaula.sh
+ 2433  chmod +x 35jaula.sh
+ 2434  cat 35jaula.sh
+ 2435  ./35jaula.sh
+ 2436  ./35jaula.sh archivo_inexistente.txt
+ 2437  touch ejemplo.txt
+ 2438  ./35jaula.sh ejemplo.txt
+ 2439  ls ~/.jaula
+ 2440  cñrar
+ 2441  clear
+ 2442  nano 36calendario.sh
+ 2443  chmod +x 36calendario.sh
+ 2444  cat 36calendario.sh
+ 2445  ./36calendario.sh
+ 2446  ./36calendario.sh -c
+ 2447  ./36calendario.sh --larga
+ 2448  ./36calendario.sh -c extra
+ 2449  ./36calendario.sh --fecha
+ 2450  clerar
+ 2451  clear
+ 2452  nano 37elevado.sh
+ 2453  chmod +x 37elevado.sh
+ 2454  cat 37elevado.sh
+ 2455  ./37elevado.sh
+ 2456  ./37elevado.sh 5
+ 2457  ./37elevado.sh 2 5
+ 2458  cler
+ 2459  cla
+ 2460  clear
+ 2461  nano 38citas.sh
+ 2462  chmod +x 38citas.sh
+ 2463  cat 38citas.sh
+ 2464  ./38citas.sh --help
+ 2465  ./38citas.sh --add 10 12 "Juan Perez"
+ 2466  ./38citas.sh --add 11 13 "Maria Lopez"
+ 2467  ./38citas.sh --search "Juan"
+ 2468  ./38citas.sh --init 10
+ 2469  ./38citas.sh --end 12
+ 2470  ./38citas.sh --name
+ 2471  ./38citas.sh --hour
+ 2472  clear
+ 2473  nano 38citas.sh
+ 2474  chmod +x 38citas.sh
+ 2475  cat 38citas.sh
+ 2476  ./38citas.sh --help
+ 2477  ./38citas.sh --add 10 12 "Juan Perez"
+ 2478  ./38citas.sh --add 11 13 "Maria Lopez"
+ 2479  ./38citas.sh --search "Juan"
+ 2480  ./38citas.sh --init 10
+ 2481  ./38citas.sh --end 12
+ 2482  ./38citas.sh --name
+ 2483  ./38citas.sh --hour
+ 2484  ./38citas.sh --add 10 21 "Eric Soto"
+ 2485  ./38citas.sh --add 12 21 "Eric Soto"
+ 2486  clear
+ 2487  nano 39citas-menu.sh
+ 2488  chmod +x 39citas-menu.sh
+ 2489  cat 39citas-menu.sh
+ 2490  ./39citas-menu.sh
+ 2491  clear
+ 2492  nano 40citas-flags.sh
+ 2493  chmod +x 40citas-flags.sh
+ 2494  cat 40citas-flags.sh
+ 2495  ./40citas-flags.sh --help
+ 2496  ./40citas-flags.sh --add 10 12 "Juan Perez"
+ 2497  ./40citas-flags.sh --add 08 09 "anna perla"
+ 2498  ./40citas-flags.sh --search "Juan"
+ 2499  ./40citas-flags.sh --init 10
+ 2500  ./40citas-flags.sh --end 12
+ 2501  ./40citas-flags.sh --name
+ 2502  ./40citas-flags.sh --hour
+ 2503  cd ..
+ 2504  ls
+ 2505  cd ..
+ 2506  ls
+ 2507  pwd
+ 2508  clear
+ 2509  ls
+ 2510  pwd
+ 2511  ls
+ 2512  cd repoSO25B
+ 2513  ls
+ 2514  Tareas
+ 2515  ls
+ 2516  cd Tareas
+ 2517  ls
+ 2518  mkdir 'Tarea. Scrip Bash'
+ 2519  cd 'Tarea. Scrip Bash'
+ 2520  ls
+ 2521  pwd
+ 2522  mv "/home/ericc/Tarea. Scrip Bash.pdf" "/home/ericc/repoSO25B/Tareas/Tarea. Scrip Bash/"
+ 2523  ls
+ 2524  cd ..
+ 2525  ls
+ 2526  git status
+ 2527  ls
+ 2528  mv "EjerciciosShell" "Tarea. Scrip Bash/"
+ 2529  ls
+ 2530  cd 'Tarea. Scrip Bash'
+ 2531  ls
+ 2532  cd EjerciciosShell
+ 2533  ls
+ 2534  cd ..
+ 2535  cd ,,
+ 2536  cd ..
+ 2537  git status
+ 2538  git add .
+ 2539  git commit -m "40 ejercicios bash 6/11/2025"
+ 2540  git push
+ 2541  ls
+ 2542  clea
+ 2543  clear
+ 2544  ls
+ 2545  cd ..
+ 2546  pwd
+ 2547  ls
+ 2548  mv "/home/ericc/Asistencia Ofrenda 30_10_2025" "/home/ericc/repoSO25B/Tareas/"
+ 2549  mv "/home/ericc/T-Clase Ofrenda 30_10_2025" "/home/ericc/repoSO25B/Trabajo_en_clase/"
+ 2550  mv "/home/ericc/repoSO25B/Tareas/Asistencia Ofrenda 30_10_2025" "/home/ericc/"
+ 2551  ls
+ 2552  mv "/home/ericc/Asistencia Ofrenda 30_10_2025" "/home/ericc/repoSO25B/Asistencias/"
+ 2553  ls
+ 2554  cd repoSO25B
+ 2555  git status
+ 2556  git add .
+ 2557  git commit -m "Asistencia 30/10/2025 Ofrenda"
+ 2558  git push 
+ 2559  git clear
+ 2560  cleare
+ 2561  clear
+ 2562  cd ..
+ 2563  pwd
+ 2564  clear
+ 2565  gpg -h
+ 2566  gpg --version
+ 2567  clear
+ 2568  sudo nano documento.txt
+ 2569  ls
+ 2570  mv "/home/ericc/documento.txt" "/home/ericc/repoSO25B/"
+ 2571  cd 
+ 2572  repoSO25B
+ 2573  cd repoSO25B
+ 2574  gpg documento.txt
+ 2575  sudo gpg -c documento.txt
+ 2576  ls
+ 2577  sudo gpg -c documento.txt
+ 2578  ls
+ 2579  cat  documento.txt.gpg
+ 2580  rm documento.txt
+ 2581  ls
+ 2582  gpg documento.txt.gpg
+ 2583  ls
+ 2584  cat documento.txt
+ 2585  clear
+ 2586  ls  -l documento.txt
+ 2587  gpg -ca documento.txt
+ 2588  ls
+ 2589  cat documento.txt.asc
+ 2590  gpg -h
+ 2591  gpg -c --cipher-algo aes256 documento.txt
+ 2592  ls
+ 2593  sudo nano documento2.txt
+ 2594  gpg -c --cipher-algo aes256 documento2.txt
+ 2595  ls
+ 2596  sudo cat documento2.txt.gpg
+ 2597  clear
+ 2598  ls
+ 2599  cd Trabajo_en_clase
+ 2600  ls
+ 2601  mkdir 06_11_2025
+ 2602  cd  06_11_2025
+ 2603  ls
+ 2604  clear
+ 2605  sudo nano MyPer.txt
+ 2606  gpg -c MyPer.txt
+ 2607  cat MyPer.txt.gpg
+ 2608  cat MyPer.txt
+ 2609  ls
+ 2610  sudo nano YourPer.txt
+ 2611  cat YourPer.txt
+ 2612  gpg -ca YourPer.txt
+ 2613  ls
+ 2614  cat YourPer.txt.asc
+ 2615  sudo nano WePer.txt
+ 2616  cat WePer.txt
+ 2617  gpg -c --cipher-algo aes256 WePer.txt
+ 2618  ls
+ 2619  cat  WePer.txt.gpg
+ 2620  pwd
+ 2621  mv "/home/ericc/Trabajo_en_clase 06_11_2025.png" "/home/ericc/repoSO25B/Trabajo_en_clase/06_11_2025/"
+ 2622  ls
+ 2623  cd ..
+ 2624  ls
+ 2625  cd 06_11_2025
+ 2626  ls
+ 2627  clear
+ 2628  ls
+ 2629  gpg MyPer.txt.gpg
+ 2630  sudo gpg MyPer.txt.gpg
+ 2631  cat MyPer.txt
+ 2632  gpg -h
+ 2633  clear
+ 2634  ls
+ 2635  gpg -c --cipher-algo aes192 WePer.txt
+ 2636  ls
+ 2637  sudo cat WePer.txt.gpg
+ 2638  sudo cat MyPer.txt.gpg
+ 2639  clear
+ 2640  sudo cat MyPer.txt.gpg
+ 2641  sudo cat WePer.txt.gpg
+ 2642  nano $HOME/.gnupg/gpg.conf
+ 2643  cat $HOME/.gnupg/gpg.conf
+ 2644  cd ..
+ 2645  ls
+ 2646  cd ..
+ 2647  ls
+ 2648  cd ..
+ 2649  ls
+ 2650  clear
+ 2651  gpg -h
+ 2652  cd /home/ericc/.gnupg
+ 2653  ls -l
+ 2654  cd ~
+ 2655  ls
+ 2656  pwd
+ 2657  ls
+ 2658  cd ..
+ 2659  clear
+ 2660  gpg --full-gen-key
+ 2661  gpg --export -a ericc > llaves.asc
+ 2662  sudo gpg --export -a ericc > llaves.asc
+ 2663  sudo gpg --export -a eric > llaves.asc
+ 2664  gpg -k
+ 2665  clear
+ 2666  gpg -k
+ 2667  sudo gpg --export -a eric > llaves.asc
+ 2668  cd ericc
+ 2669  sudo gpg --export -a eric > llaves.asc
+ 2670  ls
+ 2671  ls -l llavesHaz.asc
+ 2672  sudo gpg --import llavesHaz.asc
+ 2673  gpg -k
+ 2674  sudo gpg --import llavesHaz.asc
+ 2675  gpg -k
+ 2676  gpg --import llavesHaz.asc
+ 2677  gpg -k
+ 2678  ls
+ 2679  pwd
+ 2680  clear
+ 2681  ls
+ 2682  cd repoSO25B
+ 2683  ls
+ 2684  cd Asistencias
+ 2685  ls
+ 2686  mv "/home/ericc/asistencia-6-11-2025.png" "/home/ericc/repoSO25B/Asistencias/Asistencia_06_11_2025.png"
+ 2687  ls
+ 2688  mkdir  'Carmen Soto Eric_2125696_06_11_2025'
+ 2689  cd  'Carmen Soto Eric_2125696_06_11_2025'
+ 2690  mv "/home/ericc/repoSO25B/Asistencias/Asistencia_06_11_2025.png" "/home/ericc/repoSO25B/Asistencias/Carmen Soto Eric_2125696_06_11_2025/"
+ 2691  ls
+ 2692  history > history_06_11_2025.txt
